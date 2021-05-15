@@ -26,12 +26,12 @@ int  CountOdd(int iNo)
 }
 int main()
 {
-       int iValue = 0,iRet = 0;
+       int iNo = 0,iRet = 0;
 
        printf("Enter number to find Odd Count in That Number =>");
-       scanf("%d",&iValue);
+       scanf("%d",&iNo);
 
-       iRet = CountOdd(iValue);
+       iRet = CountOdd(iNo);
        printf("\n\n --------------------------------------------------------------- \n");
 
        printf("\n Odd Count are => %d.",iRet);
