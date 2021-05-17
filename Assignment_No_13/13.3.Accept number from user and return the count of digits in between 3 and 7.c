@@ -26,12 +26,12 @@ int   CountRange(int iNo)
 }
 int main()
 {
-       int iValue = 0,iRet = 0;
+       int iNo = 0,iRet = 0;
 
        printf("Enter number to find  Count in Between 3 and 7 That Number =>");
-       scanf("%d",&iValue);
+       scanf("%d",&iNo);
 
-       iRet =  CountRange(iValue);
+       iRet =  CountRange(iNo);
        printf("\n\n --------------------------------------------------------------- \n");
 
        printf("\n Count Between 3 and 7 are => %d.",iRet);
